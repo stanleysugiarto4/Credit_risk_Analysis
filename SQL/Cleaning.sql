@@ -120,7 +120,6 @@ BEGIN;
 UPDATE credit_risk_dataset
 SET person_emp_length = 5
 WHERE person_emp_length = 123;
-
 COMMIT;
 
 
